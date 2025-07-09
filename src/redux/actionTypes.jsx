@@ -1,0 +1,8 @@
+export const ActionType = {
+    // Action Types
+    LOGIN_USER_SUCCESS: 'LOGIN_USER_SUCCESS',
+    LOGIN_USER_FAIL: 'LOGIN_USER_FAIL',
+
+    ADD_USER_SUCCESS: 'ADD_USER_SUCCESS',
+    ADD_USER_FAIL: 'ADD_USER_FAIL',
+};

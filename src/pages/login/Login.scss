@@ -1,0 +1,111 @@
+// File: Login.scss
+.login-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(to right, #0f172a, #1e293b);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.login-card {
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 400px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+
+  .login-header {
+    background: #0e4f9e;
+    padding: 2rem;
+    text-align: center;
+    color: white;
+
+    .login-icon {
+      background-color: white;
+      color: #0e4f9e;
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      margin: 0 auto 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.5rem;
+    }
+
+    h2 {
+      margin: 0;
+      font-size: 1.6rem;
+      font-weight: 700;
+    }
+
+    p {
+      margin: 0.5rem 0 0;
+      font-size: 0.9rem;
+      opacity: 0.9;
+    }
+  }
+
+  .login-body {
+    padding: 1.5rem;
+
+    .form-group {
+      margin-bottom: 1.2rem;
+
+      label {
+        display: block;
+        margin-bottom: 0.4rem;
+        font-weight: 600;
+        color: #1e293b;
+      }
+
+      input {
+        width: 100%;
+        padding: 0.6rem 0.8rem;
+        border: 1px solid #cbd5e1;
+        border-radius: 6px;
+        font-size: 1rem;
+        transition: border 0.3s;
+
+        &:focus {
+          border-color: #0e4f9e;
+          outline: none;
+        }
+      }
+    }
+
+    .login-button {
+      width: 100%;
+      padding: 0.7rem;
+      background-color: #0e4f9e;
+      color: white;
+      font-weight: bold;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+
+      &:hover {
+        background-color: #093a75;
+      }
+    }
+  }
+
+  .login-footer {
+    text-align: center;
+    padding: 1rem;
+    background: #f9fafb;
+
+    a {
+      text-decoration: none;
+      color: #334155;
+      font-size: 0.9rem;
+
+      &:hover {
+        text-decoration: underline;
+        color: #0e4f9e;
+      }
+    }
+  }
+}
