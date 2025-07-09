@@ -12,7 +12,7 @@ function App() {
     <Router>
       <Routes>
         {/* ✅ Public Route */}
-        
+        <Route path="/" index element={<Login />} />
         <Route path="/login" element={<Login />} />
 
         {/* ✅ Layout Route with Sidebar + Outlet */}
